@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroService - Servicios Eléctricos Profesionales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ElectroService</div>
+            <button class="menu-toggle">
+                <i class="fas fa-bars menu-icon"></i>
+                <i class="fas fa-times close-icon"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Trabajos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">ElectroService</h1>
+                <p class="hero-subtitle">Soluciones eléctricas profesionales y seguras</p>
+                <a href="tel:+51963330931" class="emergency-btn">
+                    <i class="fas fa-bolt"></i>
+                    Emergencias 24/7
+                </a>
+            </div>
+        </section>
+
+        <section id="servicios" class="services">
+            <h2 class="section-title animate-on-scroll">Nuestros Servicios</h2>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <i class="fas fa-home"></i>
+                    <h3>Instalaciones Residenciales</h3>
+                    <p>Instalación y mantenimiento eléctrico para tu hogar</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <i class="fas fa-industry"></i>
+                    <h3>Servicios Industriales</h3>
+                    <p>Soluciones eléctricas para empresas y fábricas</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Emergencias 24/7</h3>
+                    <p>Servicio de emergencias disponible todo el día</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="gallery">
+            <h2 class="section-title animate-on-scroll">Nuestros Trabajos</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Instalación eléctrica residencial">
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Mantenimiento industrial">
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Panel eléctrico">
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="contact-container">
+                <h2 class="section-title animate-on-scroll">¡Solicita nuestros servicios!</h2>
+                <div class="text-center">
+                    <a href="https://wa.me/51963330931" class="whatsapp-btn" id="schedule-button">
+                        <i class="fab fa-whatsapp"></i>
+                        Contactar ahora
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://facebook.com/electroservice" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com/electroservice" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/51963330931" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p>&copy; 2025 ElectroService. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/51963330931" class="whatsapp-button" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <button class="scroll-top-button" aria-label="Volver arriba">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
